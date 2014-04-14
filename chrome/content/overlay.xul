@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<overlay id="helloworld-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <menupopup id="menu_ToolsPopup">
+    <menuitem id="helloworld" label="Hello World"
+        oncommand="alert('Hello World!');"/>
+  </menupopup>
+</overlay>

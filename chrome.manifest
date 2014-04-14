@@ -1,0 +1,5 @@
+/* The chrome package helloworld content files are at chrome/content */
+content	    helloworld      chrome/content/
+
+/* This tells firefox to merge 'overlay.xul' into 'browser.xul' when 'browser.xul' loads */
+overlay	    chrome://browser/content/browser.xul    chrome://helloworld/content/overlay.xul
